@@ -70,7 +70,7 @@ pip install -e '.[all]'
 
 ### SFT训练
 
-整理好数据后，即可进行微调。具体微调的 config 已经放置在 `train/config` 目录下，在安装好 xtuner 后可以进行训练：
+整理好数据后，即可进行微调。具体微调的 config 已经放置在 `config/` 目录下，在安装好 xtuner 后可以进行训练：
 
 ```shell
 xtuner train ${CONFIG_NAME_OR_PATH} --deepspeed deepspeed_zero2
@@ -109,12 +109,22 @@ xtuner chat ${NAME_OR_PATH_TO_ADAPTER} --prompt-template internlm2_chat
 ```
 
 
-## 部署
+## 致谢
 
-## 量化
+### 项目小伙伴(づ｡◕‿‿◕｡)づ
 
-## OpenCompass 评测
+- github@i-am-so-lucky-today
+- github@Sixdes
+- github@lifelinezhang
 
-## 鸣谢
 
-## 特别感谢
+### 特别感谢
+
+<div align="center">
+
+非常感谢书生·浦语团队对项目的支持(￣▽￣)~*
+
+感谢 OpenXLab 对项目部署的算力支持[]~(￣▽￣)~*
+
+</div>
+
