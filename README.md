@@ -124,7 +124,7 @@ xtuner chat ${NAME_OR_PATH_TO_ADAPTER} --prompt-template internlm2_chat
 
 非常感谢书生·浦语团队对项目的支持(￣▽￣)~*
 
-感谢 OpenXLab 对项目部署的算力支持[]~(￣▽￣)~*
+感谢 OpenXLab 对项目部署的算力支持ヾ(^▽^ヾ)
 
 </div>
 
