@@ -28,8 +28,8 @@ def on_btn_click():
 # 定义一个函数，用于获取模型和tokenizer
 @st.cache_resource
 def load_model():
-    tokenizer = AutoTokenizer.from_pretrained(outpth,trust_remote_code=True)
-    model = AutoModelForCausalLM.from_pretrained(outpth,trust_remote_code=True, torch_dtype=torch.float16).cuda()
+    tokenizer = AutoTokenizer.from_pretrained(base_path,trust_remote_code=True)
+    model = AutoModelForCausalLM.from_pretrained(base_path,trust_remote_code=True, torch_dtype=torch.float16).cuda()
     # model.eval()
     return model, tokenizer
 
