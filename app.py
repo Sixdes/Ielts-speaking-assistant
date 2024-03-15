@@ -22,7 +22,7 @@ cur_query_prompt = '<|im_start|>user\n{user}<|im_end|>\n<|im_start|>assistant\n'
 
 
 from modelscope import snapshot_download
-model_id = 'LocknLock/ft-ietls-speaking-assistant'
+model_id = 'lifelinezwz/ft-ielts-speaking-assistant'
 mode_name_or_path = snapshot_download(model_id, revision='master')
 
 @dataclass
